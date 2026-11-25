@@ -1,0 +1,39 @@
+# Qt Creator 配置
+.qtcreator/
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# 构建输出
+build/
+build-*/
+debug/
+release/
+.qmake.stash
+*.o
+*.obj
+*.exe
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# 服务端可执行文件
+im_server
+*_test
+make_password_hash
+
+# 本机环境配置
+.clangd
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
